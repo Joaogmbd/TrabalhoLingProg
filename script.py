@@ -6,6 +6,6 @@ def mover(o, d):
 
 try:
     mover(sys.argv[1], sys.argv[2])
-    print('O arquivo movido com sucesso.')
+    print('O arquivo foi movido com sucesso.')
 except:
-    print('Um dos parâmetros foi passado incorretamente.')
+    print('Um ou todos os parâmetros foram passados incorretamente.')
